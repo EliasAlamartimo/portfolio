@@ -83,3 +83,29 @@ section {
     display: block; /* Center the media */
     margin: 0; /* align left */
 }
+
+
+/* Added CSS for the skill container */
+.skill-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px; /* Added margin for spacing */
+}
+
+/* Adjusted CSS for progress bars */
+.progress-bar-frame {
+    height: 20px;
+    line-height: 20px; /* Removed this line */
+    width: 50%;
+    background-color: lightgray;
+    border-radius: 5px;
+    margin-top: 15px; /* Added margin for spacing between skill and progress bar */
+    margin-bottom: 15px; /* Added margin for spacing between skill and progress bar */
+}
+
+.progress-bar-inner {
+    height: 100%; /* Changed from fixed height to 100% */
+    background-color: gray;
+    color: white;
+    border-radius: 5px;
+}
